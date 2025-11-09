@@ -28,3 +28,47 @@ To build a sandboxed system that:
 
 ## 🏗 Project Structure
 
+finquery/
+├─ data/ # Sample synthetic CSV datasets
+├─ finquery/
+│ ├─ nl_parser.py # Query parsing logic
+│ ├─ ast_schema.py # Code safety schema
+│ ├─ generator.py # Natural Language → Pandas code
+│ ├─ sandbox.py # Safe execution environment
+│ ├─ renderer.py # Charts & table rendering
+│ └─ ui_streamlit.py# Streamlit dashboard UI
+├─ tests/ # Unit test files
+├─ README.md # Project documentation
+├─ pyproject.toml # Project configuration
+└─ Dockerfile # Optional deployment file
+
+## Install
+git clone https://github.com/<your-github-username>/PyfinQuery.git
+cd PyfinQuery
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+## Run
+streamlit run finquery/ui_streamlit.py
+
+## Test
+pytest tests/
+
+## Examples
+"Show total expenses this month"
+"Highest transaction last 30 days"
+"Plot monthly spending trend"
+"Group expenses by category"
+
+## Tech
+Python, Pandas, Streamlit, Matplotlib, AST, PyTest
+
+## Notes
+Works offline, safe execution, structured CSV input required
+
+## Author
+1. Khushan Pant
+2. Veval Gupta
+3. Shubhra Sarder
+4. Sachin Negi
