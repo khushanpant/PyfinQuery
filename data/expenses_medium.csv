@@ -1,0 +1,12 @@
+date,amount,currency,merchant,category,description,account_id
+2025-01-01,560.00,INR,Uber,Travel,Cab ride,ACC1001
+2025-01-02,2100.00,INR,Amazon,Shopping,Wireless mouse,ACC1002
+2025-01-03,140.00,INR,Starbucks,Food,Coffee,ACC1003
+2025-01-04,80.00,INR,DMart,Groceries,Snacks,ACC1001
+2025-01-05,320.00,INR,Netflix,Entertainment,Subscription,ACC1002
+2025-01-06,900.00,INR,Swiggy,Food,Dinner order,ACC1003
+2025-01-07,1500.00,INR,Nykaa,Shopping,Skincare,ACC1001
+2025-01-08,60.00,INR,Metro,Travel,Metro ticket,ACC1002
+2025-01-09,500.00,INR,Prime,Entertainment,Subscription,ACC1003
+2025-01-10,340.00,INR,Zomato,Food,Lunch order,ACC1001
+

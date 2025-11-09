@@ -1,0 +1,9 @@
+date,amount,currency,merchant,category,description,account_id
+2025-01-03,250.50,INR,Dominos,Food,Pizza order,ACC1001
+2025-01-04,1200.00,INR,Amazon,Shopping,Headphones,ACC1002
+2025-01-05,80.00,INR,Metro Card,Travel,Daily commute,ACC1001
+2025-01-06,450.00,INR,Starbucks,Food,Coffee,ACC1003
+2025-01-07,3200.00,INR,Flipkart,Shopping,Shoes,ACC1002
+2025-01-08,150.00,INR,Uber,Travel,Cab ride,ACC1003
+2025-01-09,600.00,INR,Swiggy,Food,Meal order,ACC1001
+

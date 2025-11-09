@@ -1,0 +1,9 @@
+date,amount,currency,merchant,category,description,account_id
+2025-02-01,5000.00,INR,Salary Credit,Income,Monthly salary,ACC1001
+2025-02-02,100.00,INR,Local Store,Groceries,Milk,ACC1002
+2025-02-03,250.00,INR,BookMyShow,Entertainment,Movie tickets,ACC1003
+2025-02-04,300.00,INR,Petrol Pump,Transport,Fuel,ACC1001
+2025-02-05,2000.00,INR,FabIndia,Shopping,Clothes,ACC1002
+2025-02-06,150.00,INR,Chai Point,Food,Tea,ACC1003
+2025-02-07,7000.00,INR,Salary Credit,Income,Freelance pay,ACC1001
+
