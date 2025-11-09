@@ -63,7 +63,7 @@ pytest tests/
 "Plot monthly spending trend"
 "Group expenses by category"
 
-## Tech
+## Language & Python Frameworks
 Python, Pandas, Streamlit, Matplotlib, AST, PyTest
 
 ## Notes
