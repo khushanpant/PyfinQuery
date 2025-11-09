@@ -28,19 +28,21 @@ To build a sandboxed system that:
 
 ## 🏗 Project Structure
 
+```
 finquery/
-├─ data/ # Sample synthetic CSV datasets
-├─ finquery/
-│ ├─ nl_parser.py # Query parsing logic
-│ ├─ ast_schema.py # Code safety schema
-│ ├─ generator.py # Natural Language → Pandas code
-│ ├─ sandbox.py # Safe execution environment
-│ ├─ renderer.py # Charts & table rendering
-│ └─ ui_streamlit.py# Streamlit dashboard UI
-├─ tests/ # Unit test files
-├─ README.md # Project documentation
-├─ pyproject.toml # Project configuration
-└─ Dockerfile # Optional deployment file
+├── data/              # synthetic CSVs
+├── finquery/
+│   ├── nl_parser.py
+│   ├── ast_schema.py
+│   ├── generator.py
+│   ├── sandbox.py
+│   ├── renderer.py
+│   └── ui_streamlit.py
+├── tests/
+├── Dockerfile
+├── pyproject.toml
+└── README.md
+```
 
 ## Install
 git clone https://github.com/<your-github-username>/PyfinQuery.git
